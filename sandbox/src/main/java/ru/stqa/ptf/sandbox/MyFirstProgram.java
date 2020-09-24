@@ -5,21 +5,17 @@ public class MyFirstProgram {
 	public static void main(String[] args){
 		hello("world");
 		hello("user");
-		double l = 5;
-		double a = 2;
-		double b = 4;
-		System.out.println("Площадь квадрата со стороной " + l + " = " + area(l));
-		System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
+		Square s = new Square(5);
+		Rectangle r = new Rectangle(2, 4);
+		System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
+		System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
+		Point point1 = new Point(5, 7);
+		Point point2 = new Point(10, -7);
+		System.out.println(point1.distance(point1, point2));
 	}
 
 	public static void hello(String somebody){
 		System.out.println ("Hello, " + somebody + "!");
-	}
-	public static double area (double len){
-		return len*len;
-	}
-	public static double area (double a, double b){
-		return a*b;
 	}
 
 }
