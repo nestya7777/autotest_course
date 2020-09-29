@@ -7,8 +7,11 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:6.10'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'org.testifyproject.junit4:junit4:1.0.6'
+    implementation 'org.junit.jupiter:junit-jupiter:5.6.0'
 }
 
 test {
-    useTestNG()
+    useTestNG();
 }
