@@ -70,6 +70,47 @@ public class GroupCreationTests {
     wd.findElement(By.linkText("groups")).click();
   }
 
+  @Test
+  public void useCreationTest() {
+    UserData user = new UserData("Anastasyia", "Vyacheslavovna", "Morozova", "LOLnestya",
+            "Haulmont", "Michurina 126", "+79171306630", "morozova-nastusha@yandex.ru");
+    initUserCreating();
+    fillUserForm(user);
+    saveNewUser();
+    gotoHomePage();
+  }
+
+  private void gotoHomePage() {
+    wd.findElement(By.linkText("home page")).click();
+  }
+
+  private void saveNewUser() {
+    wd.findElement(By.cssSelector("input:nth-child(87)")).click();
+  }
+
+  private void fillUserForm(UserData userData) {
+    wd.findElement(By.name("firstname")).click();
+    wd.findElement(By.name("firstname")).sendKeys(userData.getFirstName());
+    wd.findElement(By.name("middlename")).click();
+    wd.findElement(By.name("middlename")).sendKeys(userData.getMiddleName());
+    wd.findElement(By.name("lastname")).click();
+    wd.findElement(By.name("lastname")).sendKeys(userData.getLastName());
+    wd.findElement(By.name("nickname")).click();
+    wd.findElement(By.name("nickname")).sendKeys(userData.getNickName());
+    wd.findElement(By.name("company")).click();
+    wd.findElement(By.name("company")).sendKeys(userData.getCompany());
+    wd.findElement(By.name("address")).click();
+    wd.findElement(By.name("address")).sendKeys(userData.getAddress());
+    wd.findElement(By.name("mobile")).click();
+    wd.findElement(By.name("mobile")).sendKeys(userData.getMobileTelephoneNumber());
+    wd.findElement(By.name("email")).click();
+    wd.findElement(By.name("email")).sendKeys(userData.getEmail());
+  }
+
+  private void initUserCreating() {
+    wd.findElement(By.linkText("add new")).click();
+  }
+
   @AfterMethod
   public void tearDown(){ wd.quit();}
 
