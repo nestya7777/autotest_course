@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4fcf166-ce57-4072-b2d4-cd9a6d8c13fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/ptf/sandbox/MyFirstProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/ptf/sandbox/MyFirstProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/main/ru/stqa/ptf/sandbox/Squere.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/ptf/sandbox/MyFirstProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/ptf/sandbox/MyFirstProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +16,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/addressbook-web-tests">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandbox">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/sandbox">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="sandbox" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,25 +55,27 @@
   </component>
   <component name="ProjectId" id="1hwhdMzzWeS8KBQysm5pQ0RUfOd" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3298969" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.ptf.sandbox" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.PointTest.testArea">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.ptf.sandbox.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -53,9 +83,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PointTest.testArea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.ptf.sandbox.PointTest.testArea&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SquareTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.ptf.sandbox.SquareTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SquareTest.testArea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.ptf.sandbox.SquareTest.testArea&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sandbox [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFirstProgram2" />
+        <item itemvalue="Gradle.PointTest.testArea" />
+        <item itemvalue="Gradle.SquareTest.testArea" />
+        <item itemvalue="Gradle.SquareTest" />
+        <item itemvalue="Gradle.sandbox [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -85,58 +197,78 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2195" y="23" key="#Project_Structure" timestamp="1600931596443">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="1998" y="-358" width="1216" height="681" key="#Project_Structure" timestamp="1601392569283">
+      <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
+    <state x="1998" y="-358" width="1216" height="681" key="#Project_Structure/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601392569283" />
     <state x="275" y="23" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600928176059" />
     <state x="2195" y="23" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600931596443" />
     <state x="2676" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600932055855">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2676" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600932055855" />
-    <state x="463" y="74" key="FileChooserDialogImpl" timestamp="1600928170739">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1801" y="-431" key="FileChooserDialogImpl" timestamp="1601392493450">
+      <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
+    <state x="1801" y="-431" key="FileChooserDialogImpl/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601392493450" />
     <state x="463" y="74" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600928170739" />
-    <state width="1877" height="163" key="GridCell.Tab.0.bottom" timestamp="1600949666717">
+    <state width="1877" height="110" key="GridCell.Tab.0.bottom" timestamp="1601374878078">
+      <screen x="1366" y="-515" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601374878078" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
+    <state width="1877" height="110" key="GridCell.Tab.0.center" timestamp="1601374878078">
+      <screen x="1366" y="-515" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="110" key="GridCell.Tab.0.center/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601374878078" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
+    <state width="1877" height="110" key="GridCell.Tab.0.left" timestamp="1601374878078">
+      <screen x="1366" y="-515" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="110" key="GridCell.Tab.0.left/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601374878078" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
+    <state width="1877" height="110" key="GridCell.Tab.0.right" timestamp="1601374878078">
+      <screen x="1366" y="-515" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="110" key="GridCell.Tab.0.right/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601374878078" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600953853534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600949666717" />
-    <state width="1877" height="163" key="GridCell.Tab.0.center" timestamp="1600949666717">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600953853534" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600953853534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600949666717" />
-    <state width="1877" height="163" key="GridCell.Tab.0.left" timestamp="1600949666717">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600953853534" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600953853534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600949666717" />
-    <state width="1877" height="163" key="GridCell.Tab.0.right" timestamp="1600949666717">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600953853534" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600953853534">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600949666717" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1600943727138">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600953853534" />
+    <state x="1843" y="-355" key="SettingsEditor" timestamp="1601392833970">
+      <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600943727138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1600943727138">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600943727138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1600943727138">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600943727138" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1600943727138">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600943727138" />
+    <state x="1843" y="-355" key="SettingsEditor/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601392833970" />
+    <state x="2381" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600953070983" />
     <state x="2696" y="303" key="chooseDestDirectoryDialog" timestamp="1600932055818">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2696" y="303" key="chooseDestDirectoryDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600932055818" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1600928181251">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1745" y="-326" key="com.intellij.ide.util.TipDialog" timestamp="1601392753493">
+      <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
+    <state x="1745" y="-326" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601392753493" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600928181251" />
+    <state x="1746" y="-309" key="new project wizard" timestamp="1601391845532">
+      <screen x="1366" y="-515" width="1920" height="1040" />
+    </state>
+    <state x="1746" y="-309" key="new project wizard/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601391845532" />
   </component>
 </project>
