@@ -28,4 +28,11 @@ public class UserHelper extends HelperBase {
     public void initUserCreating() {
       click(By.linkText("add new"));
     }
+
+    public void selectUser(){click(By.id("11"));}
+
+    public void deleteSelectedUser(){
+        click(By.cssSelector(".left:nth-child(8) > input"));
+        wd.switchTo().alert().accept();
+    }
 }

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4fcf166-ce57-4072-b2d4-cd9a6d8c13fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/UserCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/tests/UserCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/model/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/GroupsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/GroupsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/srqa/pft/addressbook/appmanager/UserHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,18 +81,19 @@
       <recent name="ru.srqa.pft.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserCreationTests.testUserCreation">
-    <configuration name="GroupCreationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DeleteUserTests.testUserDeleting">
+    <configuration name="DeleteUserTests.testUserDeleting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.srqa.pft.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.srqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.GroupCreationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.DeleteUserTests" />
+      <option name="METHOD_NAME" value="testUserDeleting" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,39 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupCreationTests.useCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.srqa.pft.addressbook.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" value="useCreationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupDeletionTests.deleteUserGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.srqa.pft.addressbook.appmanager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.GroupDeletionTests" />
-      <option name="METHOD_NAME" value="deleteUserGroup" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserCreationTests.testUserCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests.testGroupModification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
@@ -159,20 +123,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.UserCreationTests" />
-      <option name="METHOD_NAME" value="testUserCreation" />
+      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteUserTests.testUserDeleting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.srqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.DeleteUserTests" />
+      <option name="METHOD_NAME" value="testUserDeleting" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.srqa.pft.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.srqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.srqa.pft.addressbook.tests.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserCreationTests.testUserCreation" />
-        <item itemvalue="JUnit.GroupDeletionTests.deleteUserGroup" />
+        <item itemvalue="JUnit.DeleteUserTests.testUserDeleting" />
+        <item itemvalue="TestNG.DeleteUserTests.testUserDeleting" />
+        <item itemvalue="JUnit.GroupModificationTests.testGroupModification" />
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
         <item itemvalue="JUnit.GroupCreationTests.testGroupCreation" />
-        <item itemvalue="JUnit.GroupCreationTests" />
-        <item itemvalue="JUnit.GroupCreationTests.useCreationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,32 +229,32 @@
     </state>
     <state x="1801" y="-431" key="FileChooserDialogImpl/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601392493450" />
     <state x="463" y="74" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600928170739" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1601460820579">
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1601474817364">
       <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-515.1920.1040@0.0.1366.728" timestamp="1601445694566" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601460820579" />
+    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601474817364" />
     <state width="1877" height="284" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
     <state width="1877" height="284" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1601460820579">
+    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1601474817364">
       <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1366.728/1366.-515.1920.1040@0.0.1366.728" timestamp="1601445694566" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601460820579" />
+    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601474817364" />
     <state width="1877" height="284" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
     <state width="1877" height="284" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1601460820579">
+    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1601474817364">
       <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1366.728/1366.-515.1920.1040@0.0.1366.728" timestamp="1601445694566" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601460820579" />
+    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601474817364" />
     <state width="1877" height="284" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
     <state width="1877" height="284" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1601460820579">
+    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1601474817364">
       <screen x="1366" y="-515" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1366.728/1366.-515.1920.1040@0.0.1366.728" timestamp="1601445694566" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601460820579" />
+    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.-515.1920.1040@1366.-515.1920.1040" timestamp="1601474817364" />
     <state width="1877" height="284" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600954722370" />
     <state width="1877" height="284" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600954425791" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601445694567">
