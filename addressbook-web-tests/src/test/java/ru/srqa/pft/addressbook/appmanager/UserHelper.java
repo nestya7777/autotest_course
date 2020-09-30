@@ -29,10 +29,22 @@ public class UserHelper extends HelperBase {
       click(By.linkText("add new"));
     }
 
-    public void selectUser(){click(By.id("11"));}
+    public void selectUser(String id){click(By.id(id));}
 
-    public void deleteSelectedUser(){
+    public void deleteSelectedUserFromHomePage(){
         click(By.cssSelector(".left:nth-child(8) > input"));
         wd.switchTo().alert().accept();
+    }
+
+    public void deleteSelectedUserFromEditorPage(){
+        click(By.cssSelector("input:nth-child(2)"));
+    }
+
+    public void initUserEditing(String cssSelectorUserEdit){
+        click(By.cssSelector(cssSelectorUserEdit));
+    }
+
+    public void saveEditingUser(){
+        click(By.cssSelector("input:nth-child(86)"));
     }
 }
